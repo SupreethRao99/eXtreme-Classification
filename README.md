@@ -16,4 +16,4 @@ The input dataframe is cleaned and a custom BytePairEncoding (BPE) tokenizer fro
 
 ## Demo
 
-Check out the demo on Streamlit
+Check out the demo on [Streamlit](https://share.streamlit.io/supreethrao99/extreme-classification/main/app.py)

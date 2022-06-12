@@ -10,8 +10,10 @@ Browse node ID's are numeric codes that identify inside Amazon, a given product 
 > uses thousands of browse node ID's*
 
 ## Approach
+The input dataframe is cleaned and a custom BytePairEncoding (BPE) tokenizer from HuggingFace tokenizers is trained on the corpus. The text is then tokenized and the FastText library is used for learn text representation and performing classification. It is observed that entire process takes about 45 minutes. For an in depth explanation, take a look at this [notebook](https://github.com/SupreethRao99/Amazon-ML-Challenge/blob/main/FastTextClassifier.ipynb)
 
 ![fasttext-flowchart](https://user-images.githubusercontent.com/55043035/173225770-873cfea0-b8f6-4384-8830-829571602f22.png)
 
 ## Demo
 
+Check out the demo on Streamlit

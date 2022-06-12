@@ -34,7 +34,7 @@ if __name__ == '__main__':
 
     st.write("# Browse Node ID Classification")
     description = """ 
-    Browse node ID's are numeric codes that identify inside Amazon a given
+    Browse node ID's are numeric codes that identify inside Amazon, a given
     product category. There are more than 30 thousand product categories on 
     Amazon, each one identified by a unique Node ID. In Amazon's own words
     > *Browse Node ID's are positive integers that uniquely identify product
